@@ -9,7 +9,7 @@ interface TooltipProps {
 }
 
 const Tooltip: React.FC<TooltipProps> = ({
-  title,
+  title, // é o texto do erro, o que vai aparecer quando passar o mouse por cima, o texto do erro
   className = '',
   children,
 }) => {

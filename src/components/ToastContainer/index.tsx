@@ -10,6 +10,7 @@ interface ToastContainerProps {
 }
 
 const ToastContainer: React.FC<ToastContainerProps> = ({ messages }) => {
+  // O primeiro parametro seria as minhas mensagems
   // O segundo parametro é uma função que retorna um campo único das minhas mensagens
   // E o terceiro paramentro seria um objeto com as minhas animações
   const messageWithTransitions = useTransition(

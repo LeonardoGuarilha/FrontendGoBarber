@@ -34,6 +34,7 @@ const Input: React.FC<InputProps> = ({
   const [isFilled, setIsFilled] = useState(false);
   const { fieldName, defaultValue, error, registerField } = useField(name);
 
+  // Eu tenho uma funcao dentro de outra funcao, apesar de ser um componente ele é uma funcao
   // com o useCallback, eu crio a função dentro do componente que não é recriada na memória toda vez que o componente atualiza
   // Ele só é criado novamente se a variável que eu passar para o array de dependência for atualizada
   const handleInputBlur = useCallback(() => {

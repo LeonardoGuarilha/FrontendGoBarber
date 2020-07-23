@@ -1,4 +1,5 @@
 // Esse é o context de login, uasndo a API de Contexto do react
+// Faz sentido eu ter o contexto se eu tiver uma informação que eu vou ter acesso em vários lugares
 import React, { createContext, useCallback, useState, useContext } from 'react';
 import api from '../services/api';
 

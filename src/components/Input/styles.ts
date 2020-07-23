@@ -61,6 +61,9 @@ export const Container = styled.div<ContainerProps>`
 `;
 
 // vou estilizar um tooltip
+// o Error é o Tooltip
+// Ele vai no Tooltip, vai entender que o Tooltip tem o container e essas regras de estilização vão para o container do Tooltip, mas para isso acontecer
+// Eu preciso do ClassName no Tooltip
 export const Error = styled(Tooltip)`
   height: 20px;
   margin-left: 16px;
